@@ -1,0 +1,52 @@
+
+[
+    {
+      "Rk": 1,
+      "name": "LeBron James",
+      "team": "Los Angeles Lakers",
+      "position":"Power Forward",
+      "salary": "$350,607,968",
+      "number":6,
+      "imagelink":"C:/Users/ivan.okpomor/Documents/node2/second-app/secondapp/public"
+      
+    },
+
+    {
+      "Rk": 2,
+      "name": "Steph Curry",
+      "team": "Golden State Warriors",
+      "position":"Point Guard",
+      "salary": "$140,529,829",
+      "number":1
+    },
+
+    {
+        "Rk": 3,
+        "name": "Kevin Durant",
+        "team": "Brooklyn Nets",
+        "position":"Small Forward",
+        "salary": "$120,529,829",
+        "number":7
+    },
+
+    {
+        "Rk": 4,
+        "name": "Giannis ",
+        "team": "Milwuakee Bucks",
+        "position":"Small Forward",
+        "salary": "$110,309,829",
+        "number":34
+    },
+
+    {
+        "Rk": 5,
+        "name": "Luka Doncic",
+        "team": "Dallas Mavericks",
+        "position":"Point Guard",
+        "salary": "$90,529,829",
+        "number":77
+    }
+
+    
+]
+    

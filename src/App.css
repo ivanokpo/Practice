@@ -3,7 +3,18 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 25vmin;
+  pointer-events: none;
+}
+
+.logo {
+  height: 25vmin;
+  pointer-events: none;
+}
+
+
+.thumbnail {
+  height: 25vmin;
   pointer-events: none;
 }
 
@@ -28,11 +39,11 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
