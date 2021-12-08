@@ -6,8 +6,8 @@
       "team": "Los Angeles Lakers",
       "position":"Power Forward",
       "salary": "$350,607,968",
-      "number":6,
-      "imagelink":"C:/Users/ivan.okpomor/Documents/node2/second-app/secondapp/public"
+      "number":23,
+      "imagelink":"./lebron.jpg"
       
     },
 
@@ -17,7 +17,8 @@
       "team": "Golden State Warriors",
       "position":"Point Guard",
       "salary": "$140,529,829",
-      "number":1
+      "number":30,
+      "imagelink":"./stephcurry.jpg"
     },
 
     {
@@ -26,7 +27,8 @@
         "team": "Brooklyn Nets",
         "position":"Small Forward",
         "salary": "$120,529,829",
-        "number":7
+        "number":7,
+        "imagelink":"./kevin.jpg"
     },
 
     {
@@ -35,7 +37,8 @@
         "team": "Milwuakee Bucks",
         "position":"Small Forward",
         "salary": "$110,309,829",
-        "number":34
+        "number":34,
+        "imagelink":"./giannis.jpg"
     },
 
     {
@@ -44,7 +47,8 @@
         "team": "Dallas Mavericks",
         "position":"Point Guard",
         "salary": "$90,529,829",
-        "number":77
+        "number":77,
+        "imagelink":"./luka.jpg"
     }
 
     

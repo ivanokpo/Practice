@@ -1,5 +1,5 @@
 import Basketballer from './Basketballer';
-import Players from '../nba.json';
+import Players from './nba.json';
 import { useState } from 'react';
 
 import Search from './Search';
@@ -15,9 +15,11 @@ function PlayerContainer() {
         <>
 
             <Search value={filter} setValue={setFilter}/>
+            <br></br>
             {
                 Players.filter(play => play.name.toLowerCase().startsWith(filter.toLowerCase())).map(basketballer => <Basketballer {...basketballer}/>)
             }
+            
 
 
             

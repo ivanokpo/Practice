@@ -1,12 +1,35 @@
-const Basket = ({products}) => {
-    const Display = ({productName}) => <li> {productName} </li>
+import PropTypes from 'prop-types';
+import Product from "./Product";
 
-    return(
-        <ul className="previousSearch">
-            {products.map((productName,i) => (
-                <Display key={i} productName={productName}/>
-            ))}
-        </ul>
-    )
+const Basket = ({ products, deleteProduct, updateQuantity }) => {
+
+    return (
+        <>
+            <h3>Basket</h3>
+            <ol>
+                {
+                    products.map(({ productName, quantity }, i) => <Product
+                        productName={productName}
+                        quantity={quantity}
+                        deleteProduct={deleteProduct}
+                        updateQuantity={updateQuantity}
+                        id={i}
+                        key={productName + i}
+                    />
+                    )
+                }
+            </ol>
+        </>
+    );
 }
+
 export default Basket;
+
+Basket.propTypes = {
+    products: PropTypes.arrayOf({
+        productName: PropTypes.string.isRequired,
+        quantity: PropTypes.number.isRequired,
+    }).isRequired,
+    deleteProduct: PropTypes.func.isRequired,
+    updateQuantity: PropTypes.func.isRequired,
+}
